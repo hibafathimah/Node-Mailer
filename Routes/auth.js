@@ -44,11 +44,6 @@ router.post('/login',async (req,res)=>{
 })
 
 
-//forgot password
-// 2.bodyil ninn kittya username ulla usere update cheyya , athayath step 1 il indakyatha ee userilekk
-//  add cheyth update aaaaakkkka.
-// 3.ee userde email  edthathin shesham nodemailer vazhi ee OTP send cheyya ayalk
-
 router.post('/forgotpassword', async (req,res)=>{
     try {
         const {name} = req.body  
